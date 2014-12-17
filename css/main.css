@@ -389,7 +389,7 @@ header.sticky{
 }
 
 #main-slider .carousel .slide-margin{
-  margin-top: 140px;
+  margin: 140px 0 0 20px;
 }
 
 #main-slider .carousel h2 {
