@@ -270,9 +270,9 @@ input.search-form:hover {
   padding-bottom: 0;
 }
 
- .navbar-nav{
+.navbar-nav{
   margin-top: 12px;
- }
+}
 
 .navbar-nav>li{
   margin-left: 35px;
@@ -355,6 +355,18 @@ input.search-form:hover {
 .navbar-inverse .navbar-form {
   border-top: 0;
   padding-bottom: 0;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  z-index:10;
+}
+
+header.sticky{
+  font-size: 12px;
 }
 
 
@@ -484,9 +496,9 @@ input.search-form:hover {
   width: 20px;
   height: 20px;
   background-color: #c52d2f;
-   margin: 0 15px 0 0;
-   border: 1px solid #c52d2f;
-   position: relative;
+  margin: 0 15px 0 0;
+  border: 1px solid #c52d2f;
+  position: relative;
 }
 
 #main-slider .carousel-indicators .active:after {
@@ -589,7 +601,7 @@ input.search-form:hover {
 }
 
 #recent-works{
-    padding-bottom: 70px;
+  padding-bottom: 70px;
 }
 
 .recent-work-wrap {
@@ -1292,12 +1304,12 @@ ul.social_icons li  a i{
 .team-bar .first-one-arrow hr {
   border-bottom: 1px solid #2D7DA4;
   border-top: 1px solid #2D7DA4;
- }
+}
 
 .team-bar .first-arrow hr {
   border-bottom: 1px solid #2D7DA4;
   border-top: 1px solid #2D7DA4;
- }
+}
 
 .team-bar .second-arrow hr {
   border-bottom: 1px solid #6aa42f;
@@ -1338,7 +1350,7 @@ ul.social_icons li  a i{
 .team-bar .first-arrow .fa-angle-up {
   background:#2D7DA4;
   margin-left:-33px
- }
+}
 
 .team-bar .second-arrow .fa-angle-down {
   background:#6AA42F;
@@ -1481,10 +1493,10 @@ ul.social_icons li  a i{
 }
 
 .clients-comments {
-    background-image: url("../images/image_bg.png");
-    background-position: center 118px;
-    background-repeat: no-repeat;
-    margin-bottom: 100px;
+  background-image: url("../images/image_bg.png");
+  background-position: center 118px;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
 }
 
 .clients-comments img {
@@ -1753,7 +1765,7 @@ ul.social_icons li  a i{
 .pricing-area .heading-six, 
 .pricing-area .price-six .plan-action .btn-primary {
   background: #e24f43
-;
+  ;
 }
 
 .pricing-area .heading-seven, 
@@ -1823,7 +1835,7 @@ ul.social_icons li  a i{
   position: relative;
   padding:5px 20px;
   color: #fff
-;
+  ;
   margin-top: 5px;
 }
 
@@ -1901,14 +1913,14 @@ ul.social_icons li  a i{
 }
 
 .gmap{
-    border: 10px solid #f6f5f0;
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-    box-shadow: 0px 0px 3px 3px #e7e4dc;
-    overflow: hidden;
-    position: relative;
-    margin: 0 auto;
+  border: 10px solid #f6f5f0;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 0px 3px 3px #e7e4dc;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
 }
 
 .gmap-area .map-content ul {
@@ -2004,7 +2016,7 @@ textarea#message{
   color: #fff;
 }
 
- .badge:before {
+.badge:before {
   border-color: transparent transparent transparent #c52d2f;
   border-style: solid;
   border-width: 10px;
@@ -2135,7 +2147,7 @@ ul.faq li > div h3 {
 .blog .blog-item .blog-content h3 {
   color: #858586;
   margin-bottom: 40px;
-  /* font-weight: 300 */}
+/* font-weight: 300 */}
 
 .blog .blog-item .blog-content h4 {
   font-size: 14px;
@@ -2223,8 +2235,8 @@ ul.sidebar-gallery {
 }
 
 .tag-cloud li{
-    display: inline-block;
-    margin-bottom: 3px;
+  display: inline-block;
+  margin-bottom: 3px;
 }
 
 .tag-cloud li a {
@@ -2335,11 +2347,11 @@ ul.sidebar-gallery {
 }
 
 #comments_title{
-   color:#4e4e4e;
-   font-weight:700px;
-   font-size:20px;
-   margin-top:60px;
-   margin-bottom:40px;
+ color:#4e4e4e;
+ font-weight:700px;
+ font-size:20px;
+ margin-top:60px;
+ margin-bottom:40px;
 }
 .comment_section {
   margin-top: 30px;
@@ -2410,7 +2422,7 @@ ul.sidebar-gallery {
 }
 
 .post_reply_comments h2 a{
- 
+
 }
 
 .message_heading {
@@ -2423,11 +2435,11 @@ ul.sidebar-gallery {
  404 page css
  ******************/
 
-#error .btn-success:hover, 
-.btn-success:focus, 
-.btn-success:active, 
-.btn-success.active, 
-.open .dropdown-toggle.btn-success:hover {
+ #error .btn-success:hover, 
+ .btn-success:focus, 
+ .btn-success:active, 
+ .btn-success.active, 
+ .open .dropdown-toggle.btn-success:hover {
   background-color: #EBEBEB;
   border-color: #EBEBEB;
   color: #4E4E4E;

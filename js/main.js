@@ -11,10 +11,10 @@ jQuery(function($) {'use strict',
 	// accordian
 	$('.accordion-toggle').on('click', function(){
 		$(this).closest('.panel-group').children().each(function(){
-		$(this).find('>.panel-heading').removeClass('active');
-		 });
+			$(this).find('>.panel-heading').removeClass('active');
+		});
 
-	 	$(this).closest('.panel-heading').toggleClass('active');
+		$(this).closest('.panel-heading').toggleClass('active');
 	});
 
 	//Initiat WOW JS
@@ -63,8 +63,25 @@ jQuery(function($) {'use strict',
 		}, 500);
 	});	
 
+	$("[data-scroll-to]").click(function(){		
+		pos = $($(this).attr('data-scroll-to')).offset().top - $(header).height();
+		$('html, body').animate({
+			scrollTop: pos
+		}, 2000);
+	});
+
 	//Pretty Photo
 	$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools: false
 	});	
+	//sticky header
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 1){  
+			$('header').addClass("sticky");
+		}
+		else{
+			$('header').removeClass("sticky");
+		}
+	});
+
 });
