@@ -67,7 +67,7 @@ jQuery(function($) {'use strict',
 		pos = $($(this).attr('data-scroll-to')).offset().top - $(header).height();
 		$('html, body').animate({
 			scrollTop: pos
-		}, 2000);
+		}, 1000);
 	});
 
 	//Pretty Photo
