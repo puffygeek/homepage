@@ -81,7 +81,12 @@ jQuery(function($) {'use strict',
 		}
 		else{
 			$('header').removeClass("sticky");
-		}
+		}		
+	});
+	
+	$(".navbar-nav li").click(function(){
+		$(".navbar-nav li").removeClass("active");
+		$(this).addClass("active");
 	});
 
 });
