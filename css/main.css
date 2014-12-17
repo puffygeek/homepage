@@ -366,7 +366,8 @@ header{
 }
 
 header.sticky{
-  font-size:12px;  
+  font-size: 12px;
+  font-style:italic;
 }
 
 
@@ -656,11 +657,11 @@ header.sticky{
   border-radius: 0;
   background: transparent;
   text-align: center;
-  color: #fff;
+  color: #fff;  
 }
 
 .recent-work-wrap:hover .overlay {
-  opacity: 1;
+  opacity: .9;
 }
 
 #services {
