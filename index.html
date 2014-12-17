@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Creating Amazing Products | PupsLabs</title>
+  <title>Creating Amazing Products | PuffyGeek</title>
 
   <!-- core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -38,155 +38,160 @@
 
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about-us.html">About</a></li>
-            <li><a href="#" data-scroll-to="#services">Services</a></li>
-            <li><a href="#" data-scroll-to="#portfolio">Portfolio</a></li>
-            <li><a href="#" data-scroll-to="#conatcat-info">Contact</a></li>                        
+            <li id="li-main" class="active"><a href="#" data-scroll-to="#main">Main</a></li>
+            <li id="li-services"><a href="#" data-scroll-to="#services">Services</a></li>
+            <li id="li-portfolio"><a href="#" data-scroll-to="#portfolio">Portfolio</a></li>
+            <li id="li-about"><a href="#" data-scroll-to="#about">Team</a></li>
+            <li id="li-press"><a href="#" data-scroll-to="#press">Press</a></li>
+            <li id="li-contact"><a href="#" data-scroll-to="#conatcat-info">Contact</a></li>                        
           </ul>
         </div>
       </div><!--/.container-->
     </nav><!--/nav-->
   </header><!--/header-->
 
-  <section id="main-slider" class="no-margin">
-    <div class="carousel slide">
-      <ol class="carousel-indicators">
-        <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-        <li data-target="#main-slider" data-slide-to="1"></li>
-        <li data-target="#main-slider" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
+  <div id="main">
+    <section id="main-slider" class="no-margin">
+      <div class="carousel slide">
+        <ol class="carousel-indicators">
+          <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+          <li data-target="#main-slider" data-slide-to="1"></li>
+          <li data-target="#main-slider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
 
-        <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
-          <div class="container">
-            <div class="row slide-margin">
-              <div class="col-sm-6"> 
-                <div class="carousel-content">
-                  <h1 class="animation animated-item-1">We develop great things</h1>
-                  <h2 class="animation animated-item-2">Let's get you online.</h2>
-                  <a class="btn-slide animation animated-item-3" href="#" data-scroll-to="#feature"><i class="fa fa-arrow-circle-down"></i> Read More</a>
+          <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
+            <div class="container">
+              <div class="row slide-margin">
+                <div class="col-sm-6"> 
+                  <div class="carousel-content">
+                    <h1 class="animation animated-item-1">We develop great things</h1>
+                    <h2 class="animation animated-item-2">Let's get you online.</h2>
+                    <a class="btn-slide animation animated-item-3" href="#" data-scroll-to="#feature"><i class="fa fa-arrow-circle-down"></i> Read More</a>
+                  </div>
                 </div>
-              </div>
 
-              <div class="col-sm-6 hidden-xs animation animated-item-4">
-                <div class="slider-img">
-                  <img src="images/slider/img1.png" class="img-responsive">
+                <div class="col-sm-6 hidden-xs animation animated-item-4">
+                  <div class="slider-img">
+                    <img src="images/slider/img1.png" class="img-responsive">
+                  </div>
                 </div>
-              </div>
 
-            </div>
-          </div>
-        </div><!--/.item-->
-
-        <div class="item" style="background-image: url(images/slider/bg2.jpg)">
-          <div class="container">
-            <div class="row slide-margin">
-              <div class="col-sm-6">
-                <div class="carousel-content">
-                  <h1 class="animation animated-item-1">Best developers and designers</h1>
-                  <h2 class="animation animated-item-2">In a price you can finally afford.</h2>
-                  <a class="btn-slide animation animated-item-3" href="about.html"><i class="fa fa-code"></i> About</a>
-                </div>
-              </div>
-
-              <div class="col-sm-6 hidden-xs animation animated-item-4">
-                <div class="slider-img">
-                  <img src="images/slider/img2.png" class="img-responsive">
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div><!--/.item-->
-
-        <div class="item" style="background-image: url(images/slider/bg3.jpg)">
-          <div class="container">
-            <div class="row slide-margin">
-              <div class="col-sm-6">
-                <div class="carousel-content">
-                  <h1 class="animation animated-item-1">We do what we know best</h1>
-                  <h2 class="animation animated-item-2">So you can focus on what you do best.</h2>
-                  <a class="btn-slide animation animated-item-3" href="#" data-scroll-to="#portfolio">Some Samples</a>
-                </div>
-              </div>
-              <div class="col-sm-6 hidden-xs animation animated-item-4">
-                <div class="slider-img">
-                  <img src="images/slider/img3.png" class="img-responsive">
-                </div>
               </div>
             </div>
-          </div>
-        </div><!--/.item-->
-      </div><!--/.carousel-inner-->
-    </div><!--/.carousel-->
-    <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-      <i class="fa fa-chevron-left"></i>
-    </a>
-    <a class="next hidden-xs" href="#main-slider" data-slide="next">
-      <i class="fa fa-chevron-right"></i>
-    </a>
-  </section><!--/#main-slider-->
+          </div><!--/.item-->
 
-  <section id="feature" >
-    <div class="container">
-     <div class="center wow fadeInDown">
-      <h2>Features</h2>
-      <p class="lead">You have an awesome business, let us show it to the world!</p>
-    </div>
+          <div class="item" style="background-image: url(images/slider/bg2.jpg)">
+            <div class="container">
+              <div class="row slide-margin">
+                <div class="col-sm-6">
+                  <div class="carousel-content">
+                    <h1 class="animation animated-item-1">Best developers and designers</h1>
+                    <h2 class="animation animated-item-2">In a price you can finally afford.</h2>
+                    <a class="btn-slide animation animated-item-3" href="#" data-scroll-to="#about"><i class="fa fa-code"></i> About</a>
+                  </div>
+                </div>
 
-    <div class="row">
-      <div class="features">
-        <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <div class="feature-wrap">
-            <i class="fa fa-bullhorn"></i>
-            <h2>Increase exposure</h2>
-            <h3>Get your business online - get more customers.</h3>
-          </div>
-        </div><!--/.col-md-4-->
+                <div class="col-sm-6 hidden-xs animation animated-item-4">
+                  <div class="slider-img">
+                    <img src="images/slider/img2.png" class="img-responsive">
+                  </div>
+                </div>
 
-        <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <div class="feature-wrap">
-            <i class="fa fa-code"></i>
-            <h2>We're hackers</h2>
-            <h3>We have the best developers working on your product.</h3>
-          </div>
-        </div><!--/.col-md-4-->
+              </div>
+            </div>
+          </div><!--/.item-->
 
-        <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <div class="feature-wrap">
-            <i class="fa fa-html5"></i>
-            <h2>Multi-Platform</h2>
-            <h3>Mobile or web - Why not both?</h3>
-          </div>
-        </div><!--/.col-md-4-->
+          <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+            <div class="container">
+              <div class="row slide-margin">
+                <div class="col-sm-6">
+                  <div class="carousel-content">
+                    <h1 class="animation animated-item-1">We do what we know best</h1>
+                    <h2 class="animation animated-item-2">So you can focus on what you do best.</h2>
+                    <a class="btn-slide animation animated-item-3" href="#" data-scroll-to="#portfolio">Some Samples</a>
+                  </div>
+                </div>
+                <div class="col-sm-6 hidden-xs animation animated-item-4">
+                  <div class="slider-img">
+                    <img src="images/slider/img3.png" class="img-responsive">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!--/.item-->
+        </div><!--/.carousel-inner-->
+      </div><!--/.carousel-->
+      <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+        <i class="fa fa-chevron-left"></i>
+      </a>
+      <a class="next hidden-xs" href="#main-slider" data-slide="next">
+        <i class="fa fa-chevron-right"></i>
+      </a>
+    </section><!--/#main-slider-->
 
-        <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <div class="feature-wrap">
-            <i class="fa fa-cloud"></i>
-            <h2>You're on the cloud</h2>
-            <h3>No need to buy expensive servers. We host it for you.</h3>
-          </div>
-        </div><!--/.col-md-4-->
+    <section id="feature" >
+      <div class="container">
+        <div class="center wow fadeInDown">
+          <h2>Features</h2>
+          <p class="lead">You have an awesome business, let us show it to the world!</p>
+        </div>
 
-        <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <div class="feature-wrap">
-            <i class="fa fa-cogs"></i>
-            <h2>Customize</h2>
-            <h3>Choose whatever best for your needs.</h3>
-          </div>
-        </div><!--/.col-md-4-->
+        <div class="row">
+          <div class="features">
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div class="feature-wrap">
+                <i class="fa fa-bullhorn"></i>
+                <h2>Increase exposure</h2>
+                <h3>Get your business online - get more customers.</h3>
+              </div>
+            </div><!--/.col-md-4-->
 
-        <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <div class="feature-wrap">
-            <i class="fa fa-heart"></i>
-            <h2>Clients love us</h2>
-            <h3>Satisfaction guaranteed.</h3>
-          </div>
-        </div><!--/.col-md-4-->
-      </div><!--/.services-->
-    </div><!--/.row-->      
-  </section><!--/#feature-->
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div class="feature-wrap">
+                <i class="fa fa-code"></i>
+                <h2>We're hackers</h2>
+                <h3>We have the best developers working on your product.</h3>
+              </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div class="feature-wrap">
+                <i class="fa fa-html5"></i>
+                <h2>Multi-Platform</h2>
+                <h3>Mobile or web - Why not both?</h3>
+              </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div class="feature-wrap">
+                <i class="fa fa-cloud"></i>
+                <h2>You're on the cloud</h2>
+                <h3>No need to buy expensive servers. We host it for you.</h3>
+              </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div class="feature-wrap">
+                <i class="fa fa-cogs"></i>
+                <h2>Customize</h2>
+                <h3>Choose whatever best for your needs.</h3>
+              </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div class="feature-wrap">
+                <i class="fa fa-heart"></i>
+                <h2>Clients love us</h2>
+                <h3>Satisfaction guaranteed.</h3>
+              </div>
+            </div><!--/.col-md-4-->
+          </div><!--/.services-->
+        </div><!--/.row-->    
+      </div>  
+    </section><!--/#feature-->
+  </div>
+  
 
   <section id="services" class="service-item">
     <div class="container">
@@ -272,164 +277,165 @@
     </div><!--/.container-->
   </section><!--/#services-->
 
-  <section id="feature" class="transparent-bg">
+  <section class="transparent-bg">
     <div id="portfolio">
       <div class="container">
         <div class="center">
-         <h2>Portfolio</h2>
-         <p class="lead">Here are the some of the latest products we've created.</p>
-       </div>
-
-
-       <ul class="portfolio-filter text-center">
-        <li><a class="btn btn-default active" href="#" data-filter="*">All</a></li>
-        <li><a class="btn btn-default" href="#" data-filter=".html">Web Development</a></li>
-        <li><a class="btn btn-default" href="#" data-filter=".mobile">Mobile Apps</a></li>
-        <li><a class="btn btn-default" href="#" data-filter=".ios">IOS</a></li>
-        <li><a class="btn btn-default" href="#" data-filter=".android">Android</a></li>
-      </ul><!--/#portfolio-filter-->
-
-      <div class="row wow bounceInUp">
-        <div class="portfolio-items html">
-          <div class="portfolio-item html col-xs-12 col-sm-4 col-md-3">
-            <div class="recent-work-wrap">
-              <img class="img-responsive" src="images/portfolio/recent/zaznu.png" alt="">
-              <div class="overlay">
-                <div class="recent-work-inner">
-                  <h3><a href="#">Zaznu</a></h3>
-                  <p>Zaznu is a real time ride-sharing social service.</p>
-                </div> 
-              </div>
-            </div>
-          </div><!--/.portfolio-item-->
-
-          <div class="portfolio-item mobile ios col-xs-12 col-sm-4 col-md-3">
-            <div class="recent-work-wrap">
-              <img class="img-responsive" src="images/portfolio/recent/classtrack_ios.jpg" alt="">
-              <div class="overlay">
-                <div class="recent-work-inner">
-                  <h3><a href="#">Class Track</a></h3>
-                  <p>Class Track let you find a register for a fitness class around you.</p>
-                </div> 
-              </div>
-            </div>          
-          </div><!--/.portfolio-item-->
-
-          <div class="portfolio-item html col-xs-12 col-sm-4 col-md-3">
-            <div class="recent-work-wrap">
-              <img class="img-responsive" src="images/portfolio/recent/homedine.jpg" alt="">
-              <div class="overlay">
-                <div class="recent-work-inner">
-                  <h3><a href="#">Home Dine</a></h3>
-                  <p>The Airbnb for meals. HomeDine is a meal-sharing community that let you find meals around you.</p>
-                </div> 
-              </div>
-            </div>        
-          </div><!--/.portfolio-item-->
-
-          <div class="portfolio-item mobile android col-xs-12 col-sm-4 col-md-3">
-            <div class="recent-work-wrap">
-              <img class="img-responsive" src="images/portfolio/recent/zaznu_android.png" alt="">
-              <div class="overlay">
-                <div class="recent-work-inner">
-                  <h3><a href="#">Zaznu For Android</a></h3>
-                  <p>Zaznu is a real-time ride-sharing app like lyft and uber.</p>
-                </div> 
-              </div>
-            </div>           
-          </div><!--/.portfolio-item-->
-
-          <div class="portfolio-item mobile ios col-xs-12 col-sm-4 col-md-3">
-            <div class="recent-work-wrap">
-              <img class="img-responsive" src="images/portfolio/recent/homedine_ios.png" alt="">
-              <div class="overlay">
-                <div class="recent-work-inner">
-                  <h3><a href="#">HomeDine For iPhone</a></h3>
-                  <p>Find meals around you based on your location.</p>
-                </div> 
-              </div>
-            </div>      
-          </div><!--/.portfolio-item-->
-
-          <div class="portfolio-item wordpress ios mobile col-xs-12 col-sm-4 col-md-3">
-            <div class="recent-work-wrap">
-              <img class="img-responsive" src="images/portfolio/recent/zaznu_ios.png" alt="">
-              <div class="overlay">
-                <div class="recent-work-inner">
-                  <h3><a href="#">Zaznu For iPhone</a></h3>
-                  <p>Share or order a ride with someone near you.</p>
-                </div> 
-              </div>
-            </div>         
-          </div><!--/.portfolio-item-->
-
-          <div class="portfolio-item mobile android col-xs-12 col-sm-4 col-md-3">
-            <div class="recent-work-wrap">
-              <img class="img-responsive" src="images/portfolio/recent/homedine_android.jpg" alt="">
-              <div class="overlay">
-                <div class="recent-work-inner">
-                  <h3><a href="#">HomeDine For Android</a></h3>
-                  <p>Connecting people over home-cooked meals.</p>
-                </div> 
-              </div>
-            </div>          
-          </div><!--/.portfolio-item-->
-
-          <div class="portfolio-item html ios android mobile col-xs-12 col-sm-4 col-md-3">
-            <div class="recent-work-wrap">
-              <img class="img-responsive" src="images/portfolio/recent/you.jpg" alt="">
-              <div class="overlay">
-                <div class="recent-work-inner">
-                  <h3><a href="#">Your Business</a></h3>
-                  <p>We want you to be in our portfolio, join us!</p>
-                  <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                </div> 
-              </div>
-            </div>          
-          </div><!--/.portfolio-item-->
+          <h2>Portfolio</h2>
+          <p class="lead">Here are the some of the latest products we've created.</p>
         </div>
-      </div>
 
-    </div>
-    <div class="clients-area center wow fadeInDown">
-      <h2>Our Team</h2>
-      <p class="lead">We are world-class developers and designers who live and breathe our passion.</p>
-    </div>
 
-    <div class="row">
-      <div class="col-md-4 wow fadeInDown">
-        <div class="clients-comments text-center">
-          <img src="images/team/sam.jpg" class="img-circle" alt="">
-          <h3>Sam is a serial entrepreneur who love anything that can be coded.</h3>
-          <h4><span>Sam Ofek /</span>  Founder and CTO</h4>
-        </div>
-      </div>
-      <div class="col-md-4 wow fadeInDown">
-        <div class="clients-comments text-center">
-          <img src="images/team/tanya.jpg" class="img-circle" alt="">
-          <h3>Tanya is a professional UI/UX designer who make sure it looks great.</h3>
-          <h4><span>Tanya Litvinova /</span>  Lead Art Director  </h4>
-        </div>
-      </div>
-      <div class="col-md-4 wow fadeInDown">
-        <div class="clients-comments text-center">
-          <img src="images/client2.png" class="img-circle" alt="">
-          <h3>Json is the guy who make sure the code compiles and the servers are fast. </h3>
-          <h4><span>Json Yun /</span>  VP R&D</h4>
+        <ul class="portfolio-filter text-center">
+          <li><a class="btn btn-default active" href="#" data-filter="*">All</a></li>
+          <li><a class="btn btn-default" href="#" data-filter=".html">Web Development</a></li>
+          <li><a class="btn btn-default" href="#" data-filter=".mobile">Mobile Apps</a></li>
+          <li><a class="btn btn-default" href="#" data-filter=".ios">IOS</a></li>
+          <li><a class="btn btn-default" href="#" data-filter=".android">Android</a></li>
+        </ul><!--/#portfolio-filter-->
+
+        <div class="row wow bounceInUp">
+          <div class="portfolio-items html">
+            <div class="portfolio-item html col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/zaznu.png" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">Zaznu</a></h3>
+                    <p>Zaznu is a real time ride-sharing social service.</p>
+                  </div> 
+                </div>
+              </div>
+            </div><!--/.portfolio-item-->
+
+            <div class="portfolio-item mobile ios col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/classtrack_ios.jpg" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">Class Track</a></h3>
+                    <p>Class Track let you find a register for a fitness class around you.</p>
+                  </div> 
+                </div>
+              </div>          
+            </div><!--/.portfolio-item-->
+
+            <div class="portfolio-item html col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/homedine.jpg" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">Home Dine</a></h3>
+                    <p>The Airbnb for meals. HomeDine is a meal-sharing community that let you find meals around you.</p>
+                  </div> 
+                </div>
+              </div>        
+            </div><!--/.portfolio-item-->
+
+            <div class="portfolio-item mobile android col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/zaznu_android.png" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">Zaznu For Android</a></h3>
+                    <p>Zaznu is a real-time ride-sharing app like lyft and uber.</p>
+                  </div> 
+                </div>
+              </div>           
+            </div><!--/.portfolio-item-->
+
+            <div class="portfolio-item mobile ios col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/homedine_ios.png" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">HomeDine For iPhone</a></h3>
+                    <p>Find meals around you based on your location.</p>
+                  </div> 
+                </div>
+              </div>      
+            </div><!--/.portfolio-item-->
+
+            <div class="portfolio-item wordpress ios mobile col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/zaznu_ios.png" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">Zaznu For iPhone</a></h3>
+                    <p>Share or order a ride with someone near you.</p>
+                  </div> 
+                </div>
+              </div>         
+            </div><!--/.portfolio-item-->
+
+            <div class="portfolio-item mobile android col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/homedine_android.jpg" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">HomeDine For Android</a></h3>
+                    <p>Connecting people over home-cooked meals.</p>
+                  </div> 
+                </div>
+              </div>          
+            </div><!--/.portfolio-item-->
+
+            <div class="portfolio-item html ios android mobile col-xs-12 col-sm-4 col-md-3">
+              <div class="recent-work-wrap">
+                <img class="img-responsive" src="images/portfolio/recent/you.jpg" alt="">
+                <div class="overlay">
+                  <div class="recent-work-inner">
+                    <h3><a href="#">Your Business</a></h3>
+                    <p>We want you to be in our portfolio, join us!</p>
+                  </div> 
+                </div>
+              </div>          
+            </div><!--/.portfolio-item-->
+          </div>
         </div>
       </div>
     </div>
 
+    <div id="about">
+      <div class="clients-area center wow fadeInDown">
+        <h2>Our Team</h2>
+        <p class="lead">We are world-class developers and designers who live and breathe our passion.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 wow fadeInDown">
+          <div class="clients-comments text-center">
+            <img src="images/team/sam.jpg" class="img-circle" alt="">
+            <h3>Sam is a serial entrepreneur who love anything that can be coded.</h3>
+            <h4><span>Sam Ofek /</span>  Founder and CTO</h4>
+          </div>
+        </div>
+        <div class="col-md-4 wow fadeInDown">
+          <div class="clients-comments text-center">
+            <img src="images/team/tanya.jpg" class="img-circle" alt="">
+            <h3>Tanya is a professional UI/UX designer who make sure it looks great.</h3>
+            <h4><span>Tanya Litvinova /</span>  Lead Art Director  </h4>
+          </div>
+        </div>
+        <div class="col-md-4 wow fadeInDown">
+          <div class="clients-comments text-center">
+            <img src="images/client2.png" class="img-circle" alt="">
+            <h3>Json is the guy who make sure the code compiles and the servers are fast. </h3>
+            <h4><span>Json Yun /</span>  VP R&amp;D</h4>
+          </div>
+        </div>
+      </div>
+    </div>
   </section><!--/#feature-->
 
-  <section id="partner">
+  <section id="press">
     <div class="container">
       <div class="center wow fadeInDown">
         <h2>In the media</h2>
         <p class="lead">Our products are awesome so everyone talk about them.</p>
       </div>    
 
-      <div class="partners">
+      <div class="press">
         <ul>
           <li> <a href="http://exame.abril.com.br/tecnologia/noticias/zaznu-o-app-de-caronas-que-quer-concorrer-com-taxis" target="_blank"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/media/exame.jpg"></a></li>
           <li> <a href="http://www.huffingtonpost.com/2013/09/18/dining-app_n_3942874.html" target="_blank"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/media/haffpost.jpg"></a></li>
@@ -443,36 +449,36 @@
 
   <section id="conatcat-info">
     <div class="container">
-            <div class="center">        
-                <h2>We Want To Hear From You</h2>
-                <p class="lead"><i class="fa fa-phone"></i> <a href="tel:+14153518826">(415)351-8826</a> | <i class="fa fa-envelope"></i> <a href="mailto:info@puffygeek.com">info@puffygeek.com</a></p>
-            </div> 
-            <div class="row contact-wrap"> 
-                <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="MAILTO:info@puffygeek.com" enctype="text/plain">
-                    <div class="col-sm-5 col-sm-offset-1">
-                        <div class="form-group">
-                            <label>Name *</label>
-                            <input type="text" name="name" class="form-control" required="required">
-                        </div>
-                        <div class="form-group">
-                            <label>Email *</label>
-                            <input type="email" name="email" class="form-control" required="required">
-                        </div>
-                    </div>
-                    <div class="col-sm-5">
-                        <div class="form-group">
-                            <label>Message *</label>
-                            <textarea name="body" id="message" required="required" class="form-control" rows="8"></textarea>
-                        </div>                        
-                        <div class="form-group">
-                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Send Message</button>
-                        </div>
-                    </div>
-                    <input type="hidden" name="subject" class="form-control" required="required" value="contact submission" />
-                </form> 
-            </div><!--/.row-->
-        </div><!--/.container-->
+      <div class="center">        
+        <h2>We Want To Hear From You</h2>
+        <p class="lead"><i class="fa fa-phone"></i> <a href="tel:+14153518826">(415)351-8826</a> | <i class="fa fa-envelope"></i> <a href="mailto:info@puffygeek.com">info@puffygeek.com</a></p>
+      </div> 
+      <div class="row contact-wrap"> 
+        <div class="status alert alert-success" style="display: none"></div>
+        <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="MAILTO:info@puffygeek.com" enctype="text/plain">
+          <div class="col-sm-5 col-sm-offset-1">
+            <div class="form-group">
+              <label>Name *</label>
+              <input type="text" name="name" class="form-control" required="required">
+            </div>
+            <div class="form-group">
+              <label>Email *</label>
+              <input type="email" name="email" class="form-control" required="required">
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <div class="form-group">
+              <label>Message *</label>
+              <textarea name="body" id="message" required="required" class="form-control" rows="8"></textarea>
+            </div>                        
+            <div class="form-group">
+              <button type="submit" name="submit" class="btn btn-primary btn-lg">Send Message</button>
+            </div>
+          </div>
+          <input type="hidden" name="subject" class="form-control" required="required" value="contact submission" />
+        </form> 
+      </div><!--/.row-->
+    </div><!--/.container-->
   </section><!--/#conatcat-info-->
 
   <section id="bottom">

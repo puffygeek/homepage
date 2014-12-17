@@ -960,28 +960,28 @@ a.accordion-toggle  i{
   border-bottom: 0 none;
 }
 
-#partner {
+#press {
   background: url(../images/media/news.jpg) 50% 50% no-repeat;
   background-size: cover;
 }
 
-#partner,#partner h2 {
+#press,#press h2 {
   color:white;
   text-align: center;
 }
 
-.partners ul {
+.press ul {
   list-style: none;  
   padding: 0;
 }
 
-.partners ul li{
+.press ul li{
   display: inline-block;
   float: left;
   margin-left: 10px;
 }
 
-.partners ul li img{
+.press ul li img{
   height:90px;
 }
 
@@ -1014,6 +1014,7 @@ a.accordion-toggle  i{
 ********* About Us Page CSS ******
 **************************/
 
+#about-us{padding-top:130px;}
 .about-us {
   margin-top: 110px;
   margin-bottom: -110px;

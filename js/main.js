@@ -68,11 +68,26 @@ jQuery(function($) {'use strict',
 		else{
 			$('header').removeClass("sticky");
 		}		
+		if (isScrolledIntoView("#main")) setActiveMenue("#li-main");
+		else if (isScrolledIntoView("#services")) setActiveMenue("#li-services");
+		else if (isScrolledIntoView("#portfolio")) setActiveMenue("#li-portfolio");
+		
+		else if (isScrolledIntoView("#about")) setActiveMenue("#li-about");
+		else if (isScrolledIntoView("#press")) setActiveMenue("#li-press");
+		else if (isScrolledIntoView("#conatcat-info")) setActiveMenue("#li-contact"); 
 	});
 	
-	$(".navbar-nav li").click(function(){
-		$(".navbar-nav li").removeClass("active");
-		$(this).addClass("active");
-	});
-
 });
+
+function setActiveMenue(item){
+	$(".navbar-nav li").removeClass("active");
+	$(item).addClass("active");
+}
+
+function isScrolledIntoView(elem){
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+    return ((elemBottom >= docViewBottom) && (elemTop <= docViewTop)) || ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
