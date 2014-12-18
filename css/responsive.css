@@ -18,6 +18,7 @@
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
+  #logo{font-size:36px;}
  /* Make Navigation Toggle on Desktop Hover */
   .dropdown:hover .dropdown-menu {
       display: block;
@@ -191,7 +192,7 @@
     margin-left: 0;
   }
 
-  #logo{font-size:16px;}
+  #logo{font-size:22px;}
 
   .top-number{
     font-size: 14px;
