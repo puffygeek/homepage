@@ -1,8 +1,8 @@
 jQuery(function($) {'use strict',
 	//#main-slider
 	$(function(){
-		$('#main-slider.carousel').carousel({
-			interval: 8000
+		$('#main-slider').carousel({
+			interval: 5000
 		});
 	});
 
@@ -39,7 +39,7 @@ jQuery(function($) {'use strict',
 	$(window).scroll(function() {
 		if ($(this).scrollTop() > 1) $('header').addClass("sticky");
 		else $('header').removeClass("sticky");
-		
+
 		if (isScrolledIntoView("#main")) setActiveMenue("#li-main");
 		else if (isScrolledIntoView("#services")) setActiveMenue("#li-services");
 		else if (isScrolledIntoView("#portfolio")) setActiveMenue("#li-portfolio");		
