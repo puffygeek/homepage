@@ -49,6 +49,7 @@ jQuery(function($) {'use strict',
 		else if (isScrolledIntoView("#conatcat-info")) setActiveMenue("#li-contact"); 
 	});
 	
+	$('[data-toggle="tooltip"]').tooltip();
 });
 
 function setActiveMenue(item){
