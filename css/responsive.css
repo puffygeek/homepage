@@ -188,8 +188,10 @@
 /* xs */
 @media (max-width: 767px) {
   .container > .navbar-header, .container > .navbar-collapse{
-    margin-left: 0; font-size:26px;
+    margin-left: 0;
   }
+
+  .navbar-brand{font-size:26px;}
 
   .top-number{
     font-size: 14px;
