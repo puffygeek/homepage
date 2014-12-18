@@ -70,10 +70,10 @@ jQuery(function($) {'use strict',
 		}		
 		if (isScrolledIntoView("#main")) setActiveMenue("#li-main");
 		else if (isScrolledIntoView("#services")) setActiveMenue("#li-services");
-		else if (isScrolledIntoView("#portfolio")) setActiveMenue("#li-portfolio");
-		
+		else if (isScrolledIntoView("#portfolio")) setActiveMenue("#li-portfolio");		
 		else if (isScrolledIntoView("#about")) setActiveMenue("#li-about");
 		else if (isScrolledIntoView("#press")) setActiveMenue("#li-press");
+		else if (isScrolledIntoView("#pricing")) setActiveMenue("#li-pricing");
 		else if (isScrolledIntoView("#conatcat-info")) setActiveMenue("#li-contact"); 
 	});
 	
